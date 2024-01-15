@@ -1,7 +1,7 @@
 <?php
 
 ////////////////=============[@Mac_37x CHK BOT]=============////////////////
-$botToken = "6844161396:AAFKfhemsneqaTCmwI6ea58e1EZ5edXkNg4"; // Enter ur bot token
+$botToken = "########################"; // Enter ur bot token
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
@@ -19,10 +19,10 @@ $premiums = file_get_contents('users.txt');
 $premium = explode("\n", $premiums);
 $group = file_get_contents('groups.txt');
 $groups = explode("\n", $group);
-if($userId == '1991559687') {
+if($userId == '##################') {
 $usernam = ''.MAC_37x.'%0A [Owner]';
 }
-elseif($userId == '1626926855') {
+elseif($userId == '#################') {
 $usernam = ''.mtchex.'%0A [Owner]';
 }
 else {
